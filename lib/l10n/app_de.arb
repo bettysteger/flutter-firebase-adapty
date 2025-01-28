@@ -1,0 +1,147 @@
+{
+  "tabbar_tab1": "SPIELE",
+  "tabbar_tab2": "TROPHÄEN",
+  "tabbar_tab3": "PROFIL",
+  "button_next": "Weiter",
+  "button_start_game": "Spiel starten.",
+  "button_create_game": "Spiel erstellen.",
+  "button_yes": "Ja",
+  "button_no": "Nein",
+  "button_cancel": "Abbrechen",
+  "button_invite_friends": "Freunde einladen",
+  "registration_title1": "Hallo.",
+  "registration_title2": "Wie heißt du denn?",
+  "registration_placeholder": "z.B. Hannelore",
+  "game_label_timeframe": "Spanne",
+  "game_label_player_number": "Am Drücker",
+  "game_label_remaining_time": "Verbl. Zeit",
+  "game_title_own": "Dein Spiel",
+  "game_title_other": "Spiel von {username}",
+  "@game_title_other": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "game_card_status_waiting": "Warten",
+  "game_card_status_running": "Läuft",
+  "game_card_status_won": "Gewonnen",
+  "game_card_status_lost": "Verloren",
+  "game_invite": "{username} fordert dich heraus!",
+  "@game_invite": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "games_title": "Deine Spiele",
+  "games_title_empty": "Sowas von tot hier.",
+  "games_body_empty": "Hier ist mal gar nix los. Starte doch straight 'n Spiel mit deinen Freunden.",
+  "trophies_title": "Deine Trophäen",
+  "trophies_title_empty": "Nix gewonnen bisher.",
+  "trophies_body_empty": "Lass doch direkt ein Spiel mit deinen Freund:innen starten.",
+  "game_card_creator_own": "von Dir",
+  "game_card_creator_other": "von {username}",
+  "@game_card_creator_other": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "create_game_title": "Neues Spiel",
+  "create_timeframe_setting1": "In welcher Spanne ",
+  "create_timeframe_setting2": "soll die Notification rausgefeuert werden?",
+  "create_slider_min": "{count,plural, =1{1 Minute} other{{count} Minuten}}",
+  "@create_slider_min": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "create_slider_hours": "{count,plural, =1{1 Stunde} other{{count} Stunden}}",
+  "@create_slider_hours": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "waiting_title_game_own1": "Du gibst das ",
+  "waiting_title_game_other1": "{username} gibt das ",
+  "@waiting_title_game_other1": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "waiting_title_game2": "Signal.",
+  "waiting_body_game_own": "Du entscheidest, wann der Wahnsinn steigt. Schau lieber nochmal nach, ob alle dabei sind.",
+  "waiting_body_game_other": "{username} entscheidet, wann der Wahnsinn steigt. Du kannst bis dahin solang auf diesen Screen starren, wie dir lieb ist.",
+  "@waiting_body_game_other": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "waiting_memberlist_btn": "Wer ist bereits am Start?",
+  "popup_start_game_title": "Willst du das Spiel wirklich starten?",
+  "popup_start_game_body": "Einmal gestartet gibts kein Zurück.",
+  "member_list_title": "{count} am Drücker",
+  "@member_list_title": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "running_title1": "Halt’ dich ",
+  "running_title2": "bereit.",
+  "running_body": "Der:die Schnellste gewinnt. Easy as that. Also musst du wohl abliefern, wenn du's den anderen zeigen willst.",
+  "running_memberlist_btn": "Wer ist am Start?",
+  "ended_memberlist_btn": "Ranking",
+  "win_title1": "Uff, das war ",
+  "win_title2": "sauschnell.",
+  "win_body": "Krasser Move. Du hast gerade mit 'ner Zeit von {time} {count} Spieler:innen rasiert.",
+  "@win_body": {
+    "placeholders": { "time": { "type": "String" }, "count": { "type": "int" } }
+  },
+  "lost_title1": "Das war ",
+  "lost_title2": "echt lahm.",
+  "lost_body": "Mit einem Tempo von {time} machst Du nur {placement} von {count}, Diggi.",
+  "@lost_body": {
+    "placeholders": { "time": { "type": "String" }, "placement": { "type": "int" }, "count": { "type": "int" } }
+  },
+  "lastplace_title1": "Du bist das ",
+  "lastplace_title2": "Allerletzte.",
+  "lastplace_body": "Mit einem Tempo von {time} machst Du den letzten Platz, Loser.",
+  "@lastplace_body": {
+    "placeholders": { "time": { "type": "String" } }
+  },
+  "timeout_title1": "Richtig ",
+  "timeout_title2": "traurig.",
+  "timeout_body": "Du hast es nicht mal geschafft, zu reagieren, bevor das Spiel vorbei war. Wow.",
+  "secs": "{count,plural, =1{1 Sekunde} other{{count} Sekunden}}",
+  "@secs": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "millisecs": "{count,plural, =1{1 Millisekunde} other{{count} Millisekunden}}",
+  "@millisecs": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "missed": "war wohl gerade auf der Schüssel.",
+  "invitation_headline1": "{username} will's wissen. ",
+  "invitation_headline2": "Bock?",
+  "@invitation_headline1": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "invitation_body": "Innerhalb von {interval} kommt zufällig die Notification. Du musst der schnellste sein, der sie öffnet.",
+  "@invitation_body": {
+    "placeholders": { "interval": { "type": "String"} }
+  },
+  "button_accept_invitation": "Klar, bin dabei.",
+  "button_decline_invitation": "Neee, kein Bock.",
+  "invitation_expired_headline1": "Du warst zu ",
+  "invitation_expired_headline2": "langsam.",
+  "invitation_expired_body": "Das Spiel von {username} ist schon gestartet worden. Du kannst also leider jetzt schon einpacken.",
+  "@invitation_expired_body": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "invitation_expired_button": "Ok, schade.",
+  "settings_headline1": "Profil",
+  "settings_headline2": "Einstellungen",
+  "subscription_title": "Abo",
+  "subscription_card_false": "Möchtest du mehr als 1 Spiel gleichzeitig genießen?",
+  "subscription_card_true": "Du kannst unbegrenzt viele Spiele genießen.",
+  "subscription_card_btn": "Abo holen",
+  "settings_change_name_title": "Namen ändern",
+  "settings_change_name_body": "Falls du dich vertippt hast",
+  "settings_imprint_title": "Impressum",
+  "settings_imprint_body": "Muss leider sein",
+  "subscription_headline1": "Hol dir das",
+  "subscription_headline2": "Abo.",
+  "subscription_body": "Hey du! Mit unserer \"Abo\"-Subscription kannst du endlich mehrere Spiele gleichzeitig zocken. Kein Limit, keine Wartezeiten – einfach loslegen und abgehen!\n\nUnd keine Sorge, das Abo verlängert sich jeden Monat automatisch, bis du es beendest. Ganz easy!",
+  "subscription_btn": "Hol es dir",
+  "subscription_btn_restore_purchases": "Kauf wiederherstellen",
+  "action_sheet_leave_game_title": "Was möchtest du mit diesem Spiel machen?",
+  "action_sheet_leave_game_button": "Spiel verlassen",
+  "action_sheet_delete_game_title": "Was möchtest du mit diesem Spiel machen?",
+  "action_sheet_delete_game_button": "Spiel löschen",
+  "overlay_leave_game_title": "Willst du das Spiel wirklich verlassen?",
+  "overlay_leave_game_body": "Du kannst über den Link jederzeit wieder beitreten.",
+  "overlay_delete_game_title": "Willst du das Spiel wirklich löschen?",
+  "overlay_delete_game_body":	"Einmal gelöscht gibt’s kein zurück."
+}

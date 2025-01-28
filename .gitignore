@@ -41,3 +41,8 @@ app.*.symbols
 app.*.map.json
 
 ios/build
+
+# flutterfire
+firebase.json
+google-services.json
+lib/firebase_options.dart

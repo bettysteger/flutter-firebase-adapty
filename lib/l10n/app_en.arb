@@ -1,0 +1,147 @@
+{
+  "tabbar_tab1": "GAMES",
+  "tabbar_tab2": "TROPHIES",
+  "tabbar_tab3": "PROFILE",
+  "button_next": "Next",
+  "button_start_game": "Start Game.",
+  "button_create_game": "Create Game.",
+  "button_yes": "Yes",
+  "button_no": "No",
+  "button_cancel": "Cancel",
+  "button_invite_friends": "Invite Friends",
+  "registration_title1": "Cheers, mate.",
+  "registration_title2": "What's your name?",
+  "registration_placeholder": "e.g. Peter",
+  "game_label_timeframe": "Span",
+  "game_label_player_number": "On It",
+  "game_label_remaining_time": "Rem. Time",
+  "game_title_own": "Your Game",
+  "game_title_other": "{username}s Game",
+  "@game_title_other": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "game_card_status_waiting": "Waiting",
+  "game_card_status_running": "Running",
+  "game_card_status_won": "Won",
+  "game_card_status_lost": "Lost",
+  "game_invite": "{username} challenges you!",
+  "@game_invite": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "games_title": "Your Games",
+  "games_title_empty": "It's dead empty right here.",
+  "games_body_empty": "What are you waiting for? Go ahead and start a game with your friends right now.",
+  "trophies_title": "Your Trophies",
+  "trophies_title_empty": "Nothing won so far.",
+  "trophies_body_empty": "Dude, nothing happens here. Why don't you start a game with your friends right away?",
+  "game_card_creator_own": "Yours",
+  "game_card_creator_other": "from {username}",
+  "@game_card_creator_other": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "create_game_title": "New Game",
+  "create_timeframe_setting1": "In which time span ",
+  "create_timeframe_setting2": "the nofication should be triggered?",
+  "create_slider_min": "{count,plural, =1{1 minute} other{{count} minutes}}",
+  "@create_slider_min": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "create_slider_hours": "{count,plural, =1{1 hour} other{{count} hours}}",
+  "@create_slider_hours": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "waiting_title_game_own1": "Your ",
+  "waiting_title_game_other1": "{username}s ",
+  "@waiting_title_game_other1": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "waiting_title_game2": "call.",
+  "waiting_body_game_own": "You decide when the game starts. Make sure everyone is on board.",
+  "waiting_body_game_other": "{username} decides when the game starts. You can stare at this screen for as long as you like.",
+  "@waiting_body_game_other": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "waiting_memberlist_btn": "Who is already in?",
+  "popup_start_game_title": "Start this game?",
+  "popup_start_game_body": "There's no way back once this game is started.",
+  "member_list_title": "{count} playing",
+  "@member_list_title": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "running_title1": "Be ready, ",
+  "running_title2": "dude.",
+  "running_body": "Be fast. Simple as that. Demonstrate your speed to the the other snails.",
+  "running_memberlist_btn": "Who is in?",
+  "ended_memberlist_btn": "Ranking",
+  "win_title1": "Oh yeah, ",
+  "win_title2": "super fast.",
+  "win_body": "Look at you. You won out of {count} with a speed of {time}.",
+  "@win_body": {
+    "placeholders": { "time": { "type": "String" }, "count": { "type": "int" } }
+  },
+  "lost_title1": "Oh damn, ",
+  "lost_title2": "this was slow.",
+  "lost_body": "With a speed of {time} you're placed on {placement} out of {count}. That's pretty bad.",
+  "@lost_body": {
+    "placeholders": { "time": { "type": "String" }, "placement": { "type": "int" }, "count": { "type": "int" } }
+  },
+  "lastplace_title1": "You are the very ",
+  "lastplace_title2": "last thing.",
+  "lastplace_body": "With a speed of {time} you're the last place, loser.",
+  "@lastplace_body": {
+    "placeholders": { "time": { "type": "String" } }
+  },
+  "timeout_title1": "Timeout, ",
+  "timeout_title2": "Baby.",
+  "timeout_body": "You didn't even manage to respond before the game was over. So bad.",
+  "secs": "{count,plural, =1{1 second} other{{count} seconds}}",
+  "@secs": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "millisecs": "{count,plural, =1{1 millisecond} other{{count} milliseconds}}",
+  "@millisecs": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "missed": "was probably just taking a dump.",
+  "invitation_headline1": "{username} wants to show off. ",
+  "invitation_headline2": "You ready?",
+  "@invitation_headline1": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "invitation_body": "Within {interval} the notification comes randomly. You have to be the fastest to open it.",
+  "@invitation_body": {
+    "placeholders": { "interval": { "type": "String"} }
+  },
+  "button_accept_invitation": "Count me in.",
+  "button_decline_invitation": "Nah, dude.",
+  "invitation_expired_headline1": "You were ",
+  "invitation_expired_headline2": "too slow.",
+  "invitation_expired_body": "The game by {username} has already been started. So unfortunately you can already pack up now.",
+  "@invitation_expired_body": {
+    "placeholders": { "username": { "type": "String"} }
+  },
+  "invitation_expired_button": "Damn, alright.",
+  "settings_headline1": "Settings",
+  "settings_headline2": "Profile",
+  "subscription_title": "Subscription",
+  "subscription_card_false": "Do you want to enjoy more than 1 game at the same time?",
+  "subscription_card_true": "You can enjoy unlimited games.",
+  "subscription_card_btn": "Get subscription",
+  "settings_change_name_title": "Change name",
+  "settings_change_name_body": "In case you mistyped",
+  "settings_imprint_title": "Imprint",
+  "settings_imprint_body": "It has to be",
+  "subscription_headline1": "Get your",
+  "subscription_headline2": "subscription.",
+  "subscription_body": "Hey there! With our \"Subscription\" subscription, you can play multiple games at the same time. No limits, no waiting – just dive in and have a blast!\n\nAnd don't worry, the subscription renews automatically every month until you cancel it. Super easy!",
+  "subscription_btn": "Get it now",
+  "subscription_btn_restore_purchases": "Restore purchases",
+  "action_sheet_leave_game_title": "What do you want to do with this game?",
+  "action_sheet_leave_game_button": "Leave game",
+  "action_sheet_delete_game_title": "What do you want to do with this game?",
+  "action_sheet_delete_game_button": "Delete game",
+  "overlay_leave_game_title": "Do you really want to leave the game?",
+  "overlay_leave_game_body": "You can rejoin at any time via the link.",
+  "overlay_delete_game_title": "Do you really want to delete the game?",
+  "overlay_delete_game_body":	"Once deleted, there's no going back."
+}
