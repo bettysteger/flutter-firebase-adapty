@@ -10,7 +10,7 @@ import 'package:somegame/components/button_text.dart';
 import 'package:somegame/components/tag.dart';
 import 'package:somegame/models/game.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:somegame/l10n/app_localizations.dart';
 
 // Stat Counter
 class StatCounter extends StatelessWidget {

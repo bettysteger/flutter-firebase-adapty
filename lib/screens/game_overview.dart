@@ -8,7 +8,7 @@ import 'package:somegame/components/button_icon.dart';
 import 'package:somegame/components/card_game.dart';
 import 'package:somegame/routes.dart';
 import 'package:somegame/models/game.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:somegame/l10n/app_localizations.dart';
 
 class GameOverview extends StatefulWidget {
   final List<GameState> statusFilter;

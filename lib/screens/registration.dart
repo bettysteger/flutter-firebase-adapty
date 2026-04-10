@@ -4,7 +4,7 @@ import 'package:somegame/services/auth.dart';
 import 'package:somegame/theme.dart';
 import 'package:somegame/components/components.dart';
 import 'package:somegame/components/button_text.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:somegame/l10n/app_localizations.dart';
 
 final Logger _log = Logger('home');
 

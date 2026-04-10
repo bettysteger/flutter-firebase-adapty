@@ -9,7 +9,7 @@ import 'package:somegame/screens/game_overview.dart';
 import 'package:somegame/screens/settings.dart';
 import 'package:somegame/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:somegame/l10n/app_localizations.dart';
 
 class Home extends StatelessWidget {
   final String? gameId;

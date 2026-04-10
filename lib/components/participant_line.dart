@@ -3,7 +3,7 @@ import 'package:somegame/components/components.dart';
 import 'package:somegame/models/game.dart';
 import 'package:somegame/models/user.dart';
 import 'package:somegame/theme.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:somegame/l10n/app_localizations.dart';
 
 class ParticipantWaitingLine extends StatelessWidget {
   final User _user;
